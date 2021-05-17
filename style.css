@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 18px;
+    background-color: white;
+    min-height: 100vh;
+    padding: 1em 3.5em;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.address a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.address ul{
+    list-style: none;
+   
+}
+
+.address{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: end;
+    margin-left: 42em;
+    padding-top: 10px;
+}
+
+
+
+.hero{
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.table{
+
+    text-align: justify;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+.tr th{
+    font-weight: bold;
+    
+}
+ .tr td{
+     padding-left: 30px;
+ }
+
+ .qualification{
+    text-align: justify;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+ }
+
+ .work{
+     line-height: 1.8em;
+     margin-bottom: 1em;
+ }
+
+ .designation{
+     line-height: 1.8em;
+     margin-bottom: 1em;
+ }
+
+ .referee ul{
+     list-style-type: none;
+     line-height: 1.8em;
+ }
